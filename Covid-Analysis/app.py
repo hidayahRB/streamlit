@@ -5,7 +5,7 @@ import plotly.express as px
 import streamlit as st
 from datetime import datetime
 
-st.set_page_config(page_title='Covid-19 Analysis in Malaysia',
+st.set_page_config(page_title='MY Covid-19 Analysis',
                    page_icon=":bar_chart:",
                    layout="wide"
                    )
