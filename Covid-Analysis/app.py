@@ -5,7 +5,7 @@ import plotly.express as px
 import streamlit as st
 from datetime import datetime
 
-st.set_page_config(page_title='MY Covid-19 Analysis',
+st.set_page_config(page_title='Covid-19 Analysis in Malaysia',
                    page_icon=":bar_chart:",
                    layout="wide"
                    )
@@ -18,7 +18,7 @@ url="https://storage.data.gov.my/healthcare/covid_cases.csv"
 dataset = pd.read_csv(url)
 
 # ---- MAINPAGE ----
-st.title(":bar_chart: Covid-19 Analysis in Malaysia")
+st.title(":bar_chart: MY Covid-19 Analysis")
 st.markdown("**By Hidayah Arbee**")
 
 # About
